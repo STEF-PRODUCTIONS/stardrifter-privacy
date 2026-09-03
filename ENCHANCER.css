@@ -1,0 +1,141 @@
+body {
+  background-color: lightblue;
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: #67ecf0;
+  border: 3px solid white
+}
+
+.webt {
+  color: white;
+}
+
+.mode {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+}
+
+.translate {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+img {
+ 
+}
+/*.intro is a div but uses class*/
+.intro {
+  font-style: oblique;
+  font-size: 125%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 12.5%;
+}
+
+h2 {
+  font-variant: small-caps;
+}
+
+.info {
+  width: 50%;
+}
+
+.date {
+  background-color: #67ecf0;
+}
+
+.boxes {
+  display:flex;
+ flex-direction:row;
+ padding: 50px;
+}
+
+/*.more is a div folder but uses a class*/
+.more {
+ align-items: center;
+ text-align: center;
+  border: 3px solid white;
+  width: 25%;
+  background-color: #67b9f0;
+  border-radius: 15px;
+}
+
+.prohead {
+  font-style: oblique;
+
+}
+
+.bg {
+width: 72.5%;
+height: 100%
+}
+
+/*.gallery is a div folder that uses class*/
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items:end;
+  width: 100%;
+}
+
+.photos {
+  border: 3px solid white;
+  border-style: dashed;
+  background-color: #67b9f0;
+  width: 20%;
+  padding: 30px;
+ text-align: center;
+ text-transform: uppercase;
+ line-height: 200%;
+ border-radius: 15px;
+}
+
+.last {
+  background-color: #67b9f0;
+}
+
+.about {
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+}
+
+.extra {
+  font-style: oblique;
+  padding: 30px;
+  text-align: center;
+}
+
+.buttonsect {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.support {
+  background-color: rgb(211, 211, 211);
+}
+
+.report {
+  background-color: rgb(211, 211, 211);
+}
+
+.join {
+  background-color: rgb(211, 211, 211);
+}
+
+.suggestions {
+  background-color: rgb(211, 211, 211);
+}

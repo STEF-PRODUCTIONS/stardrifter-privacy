@@ -1,0 +1,47 @@
+body {
+    background-color: #deb887;
+    font-style: italic;
+
+}
+
+header {
+    text-align: center;
+    font-size: x-large;
+    background-color: #dc9538;
+    background-size:cover;
+    color: white;
+}
+
+.main {
+    text-align: center;
+}
+
+.cat {
+    background-color: #dbac6f;
+}
+
+.info {
+    padding: 100px;
+}
+
+.png {
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.list1 {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.vid {
+    width: 875px;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    border: 3px solid white;
+    border-radius: 50px;
+}
